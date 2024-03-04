@@ -1,0 +1,185 @@
+.navbar{
+    width:100%;
+    height: 90px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    
+}
+
+.logo{
+   
+    font-size: 25px;
+    margin-left: 10px;
+    display: flex;
+    
+}
+.logoname{
+  margin-top: 22px;
+}
+.navbar ul li{
+  font-size: 30px;
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar ul li:hover{
+  background-color: rgb(201, 248, 255);
+  height: 50px;
+}
+
+.menu ul{
+    display: flex;
+
+}
+.logoOfSchool{
+    width:fit-content;
+    display:flex;
+}
+.SchoolIndexImage{
+  margin-left: 105px;
+  height: fit-content;
+  width: fit-content;
+}
+.Sname{
+    font-size: 45px;
+}
+.Sname1{
+    font-size: 45px;
+    margin-left: 90px;
+  
+
+}
+.Sadr{
+    font-size: 30px;
+    margin-left: 120px;
+}
+.welcome{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 220px;
+    background-color: red;
+    color: white;
+    width: fit-content;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  .allStaff{
+    font-size: xx-large;
+    text-align: center;
+   
+  }
+  .principal{
+    color:blue;
+    background-color: red;
+    text-align: center;
+  
+    
+  }
+  .co{
+    color:blue;
+    background-color: rgb(0, 255, 110);
+  }
+  .vco{
+    color:blue;
+    background-color: red;
+  }
+  .t1{
+    color:blue;
+    background-color: rgb(0, 255, 110);
+  }
+  .t2{
+    color:blue;
+    background-color: red;
+  }
+  .t3{
+    color:blue;
+    background-color: rgb(0, 255, 110);
+  }
+  .t4{
+    color:blue;
+    background-color: red;
+  }
+
+   .t5{
+    color:blue;
+    background-color: rgb(0, 255, 110);
+  }
+  .t6{
+    color:blue;
+    background-color: red;
+  }
+  .t7{
+    color:blue;
+    background-color: rgb(0, 255, 110);
+  }
+  .t8{
+    color:blue;
+    background-color: red;
+  }
+  .t9{
+    color:blue;
+    background-color: rgb(0, 255, 110);
+  }
+  .C9{
+    background-color: deeppink;
+    color:white;
+    height: 80px;
+    text-decoration: wavy;
+    font-size: 40px;
+    text-align: center;
+  
+  
+  }
+  .C9:hover{
+    color: white;
+    background-color : green;
+
+  }
+  .pp{
+    display: flex;
+    height: fit-content;
+    margin-left: 100px;
+    border-color: red;
+
+  }
+  .pr1{ 
+    display: flex;
+    align-self: center;
+     margin-left: 100px;
+  }
+  .facebook{
+    display: flex;
+    margin: auto;
+    margin-left: 200px;
+  }
+  .facebook:hover{
+    background-color: deepskyblue;
+    height: max-content;
+    max-width: fit-content;
+  }
+  

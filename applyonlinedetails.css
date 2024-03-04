@@ -1,0 +1,68 @@
+h1,h3{
+    margin-left: 10%;
+    
+}
+input,textarea{
+    border:2px solid black;
+    border-radius: 6px;
+    outline: none;
+    margin: 11px auto;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+
+#name,#fname,#mname,#taddress,#paddress,#email,#pschool{
+    width: 50%;
+}
+#age{
+    width:10%
+}
+#age{
+    width: fit-content;
+}
+#cnumber{
+    width:fit-content;
+}
+#form1{
+    margin-left: 5%;
+    background-color: aqua;
+    width: 50%;
+   
+}
+
+.form{
+    display: flex;
+    
+}
+#submit{
+    margin-left: 30%;
+
+}
+.admin{
+   background-color: grey;
+   width:fit-content;
+   padding: 20px;
+    /* padding-left: 20%; */
+    height: 350px;
+}
+.blank{
+    width:200px;
+    height:100%
+}
+#button{
+    padding: 10px;
+    width:100px;
+    color: white;
+    background-color: lightblue;
+    border:none;
+
+}
+#text{
+    height:25px;
+    border-radius:5px;
+    padding:4px;
+    border:solid thin #aaa;
+    width: 100%;
+ }
+
