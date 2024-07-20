@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                 {
                     $_SESSION['user_id']=$user_data['user_id'];
                     echo " Login Successfull";
-                    header("Location: admin_page.php");
+                    header("Location: AdminPage\admin_page.php");
                     die;
                 }
                

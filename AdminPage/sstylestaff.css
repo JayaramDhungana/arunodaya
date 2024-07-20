@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #0044cc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.logoname {
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #0056e0;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #0044cc;
+    margin: 20px 0;
+}
+
+.principlesir {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pimage img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.pname {
+    font-size: 20px;
+    color: #333;
+}
+
+.pname a {
+    text-decoration: none;
+    color: #0044cc;
+}
+
+.pname a:hover {
+    text-decoration: underline;
+}
+
+.pflink {
+    margin-top: 10px;
+}
+
+.pflink a img {
+    height: 24px;
+    width: 24px;
+}
